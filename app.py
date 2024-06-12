@@ -17,7 +17,7 @@ def clicked():
     lbl.configure(text=res)
 
 
-btn = Button(window, text="Botão", bg="black", fg="white", command=clicked)
+btn = Button(window, text="Botão", bg="black", fg= "white", command=clicked)
 btn.grid(column=0, row=3)
 
 window.mainloop()
